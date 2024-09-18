@@ -1,0 +1,124 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-color: #eee;
+    font-family: "Roboto", sans-serif;
+}
+.container{
+    max-width: 1000px;
+    background-color: rgb(92, 78, 83);
+    margin: 0 auto;
+    padding: 20px;
+}
+/* header start */
+header{
+
+}
+.profile{
+    width: 100px;
+    height: 120px;
+    border: 3px solid gray;
+    border-radius: 50%;
+    float: left;
+}
+.bio{
+    float: left;
+    padding: 30px;
+}
+h1,h2,h3,h4,h5,h6{
+    color: #119991;
+}
+.contact{
+    float: right;
+    padding: 30px;
+}
+.contact a{
+    text-decoration: none;
+    color: teal;
+    font-weight: bold;
+}
+.contact a:hover{
+    text-decoration: underline;
+    color: tomato;
+}
+/* div clearing part */
+.clear{
+    clear: both;
+}
+/* Horizontal part */
+hr{
+    border: 3px solid black;
+    width: 100%;
+    margin: 20px auto;
+    border-bottom: none;
+}
+/* horizontal end */
+/* header Complted */
+/* main section Start */
+main{
+
+}
+.content{
+margin-bottom: 30px;
+}
+.left{
+float: left;
+width: 30%;
+
+}
+.right{
+ float: left;
+ width: 70%;
+
+}
+.common-hr{
+    border: 1px solid black;
+    margin: 20px auto;
+    border-bottom: none;
+}
+/* education */
+.edu-1{
+float: left;
+width: 33%;
+}
+.edu-2{
+float: right;
+width: 33%;
+}
+.edu-3{
+    float: right;
+    width: 34%;
+    }
+    
+    .edu-left{
+float: left;
+width: 45%;
+    }
+    .edu-right{
+float: right;
+width: 45%;
+padding: 20px;
+    }
+/* main section End */
+/* Footer Start */
+footer{
+
+}
+.bootom-container{
+    background-color: black;
+    text-align: center;
+    padding: 20px;
+}
+.bootom-container a{
+    color: white;
+    text-decoration: none;
+    margin: 20px;
+}
+.bootom-container p{
+    color: white;
+    
+    margin-top: 20px;
+}
+/* Footer end */
